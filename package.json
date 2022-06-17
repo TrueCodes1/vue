@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "git-update": "git add . && git commit -m 'updated' && git push origin master && clear"
+    "git-update": "git add . && git commit -m 'updated' && git push origin master && git push origin master:main && clear"
   },
   "repository": {
     "type": "git",
