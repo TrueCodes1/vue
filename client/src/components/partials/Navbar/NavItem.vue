@@ -1,7 +1,7 @@
 
 <template>
 
-    <li class="nav-item" :style="[{background: color}, rounded=='false' ? { borderRadius: '10px' } : { borderRadius: 0 }] ">{{ route }}</li>
+    <li class="nav-item" @click="abcd()" :style="[{background: color}, rounded=='false' ? { borderRadius: '10px' } : { borderRadius: 0 }] ">{{ route }}</li>
 
 </template>
 
@@ -22,6 +22,11 @@
             rounded: {
                 type: String,
                 default: 'true'
+            }
+        },
+        methods: {
+            abcd() {
+                alert('clicked')
             }
         }
 
