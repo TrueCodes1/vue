@@ -1,0 +1,21 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "git-update": "git add . && git commit -m 'updated' && git push origin master && clear"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrueCodes1/vue.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrueCodes1/vue/issues"
+  },
+  "homepage": "https://github.com/TrueCodes1/vue#readme",
+  "dependencies": {
+  }
+}
