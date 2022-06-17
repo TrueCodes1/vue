@@ -8,7 +8,7 @@
 
     <nav id="nav-bar">
 
-        <NavItem route="Home" />
+        <NavItem route="Home" color="red" rounded='false' />
         <NavItem route="About" />
         <NavItem route="Contact" />
 
@@ -16,7 +16,7 @@
 
 </template>
 
-<style>
+<style scoped>
 
     #nav-bar {
 
