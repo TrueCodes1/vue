@@ -13,4 +13,18 @@
 
 <style>
 
+  @font-face {
+
+    font-family: Poppins;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: regular;
+
+  }
+
+  #app {
+
+    font-family: 'Poppins';
+
+  }
+
 </style>
