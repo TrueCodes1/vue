@@ -14,6 +14,13 @@ const routes = [
   },
   {
 
+    path: "/home",
+    name: "home",
+    component: HomeView,
+
+  },
+  {
+
     path: "/about",
     name: "about",
     component: () => { 
