@@ -1,26 +1,41 @@
+
+<script setup>
+
+  import Navbar from '../components/partials/Navbar/Navbar.vue';
+  import AboutInfo from '../components/partials/About/AboutInfo.vue';
+
+</script>
+
 <template>
 
-  <Navbar />
+  <div>
+
+    <Navbar />
+    <AboutInfo />
+    <h1>
+      Hellooooo
+    </h1>
+
+  </div>
 
 </template>
 
-<style>
-
-</style>
-
 <script>
-
-  import Navbar from '../components/partials/Navbar/Navbar.vue';
 
   export default {
 
     name: 'AboutView',
     components: {
 
-      Navbar
+      Navbar,
+      AboutInfo
 
     }
 
   }
 
 </script>
+
+<style>
+
+</style>
