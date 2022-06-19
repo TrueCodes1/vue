@@ -40,7 +40,7 @@
                     link: '/about',
                     text: 'About',
                     color: 'green',
-                    rounded: 'true'
+                    rounded: 'false'
                 
                 },
                 contact: {
